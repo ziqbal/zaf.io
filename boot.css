@@ -1,0 +1,24 @@
+
+#avatarImage{
+
+	margin-left:-10px;
+}
+
+
+.bp0, .bp1, .bp2, .bp3,.bp4,.bp5,.bp6 {
+width: 15px;
+height: 15px;
+display: inline-block;
+margin-right: 0.5em;
+border-radius: 3px;
+}
+.bp0 { background: #888; }
+.bp1 { background: #0e90d2; }
+.bp2 { background: rgb(128, 88, 165); }
+.bp3 { background: #5eb95e; }
+.bp4 { background: #dd514c; }
+.bp5 { background: rgb(250, 210, 50); }
+.bp6 { background: rgb(243, 123, 29); }
+
+
+
