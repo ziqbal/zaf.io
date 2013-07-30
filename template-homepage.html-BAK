@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="boot.css">
 
 <script src="jquery.js"></script>
-<script src="boot.js"></script>
 
 </head>
 <body>
@@ -27,11 +26,7 @@
 <ul>
 <!--{pages.level1--> <li class=" "> <a href="/base/">Base</a> </li> <!--}pages.level1-->
 <li class=" menu-item-divided"> &nbsp; </li>
-<!--{pages.level2-->
-<li><a href="#"><span class="email-label-personal"></span>Personal</a></li>
-<li><a href="#"><span class="email-label-work"></span>Work</a></li>
-<li><a href="#"><span class="email-label-travel"></span>Travel</a></li>
-<!--}pages.level2-->
+<!--{pages.level2--> <li class=" "> <a href="/base/">Base</a> </li> <!--}pages.level2-->
 
 <!--{pages.search-->
 <li class="l-centered menu-item-divided"><input type="text" placeholder="Search"></li>
@@ -45,35 +40,13 @@
 
 <div class="pure-u" id="main">
 
-
-<div class="l-centered pure-menu pure-menu-open pure-menu-horizontal _collapse">
-    <ul>
-<!--{pages.level3--> <li class=" "> <a href="/base/">Base</a> </li> <!--}pages.level3-->
-    </ul>
-</div>
-
-
-<div class="header pure-u-1 _collapse">
-<!--{pages.maintitle--><h1 class="pure-u-1">Layouts</h1><!--}pages.maintitle-->
-<!--{pages.datebyline--><h2 class="pure-u">Quickstart your next web project</h2><!--}pages.datebyline-->
-</div>
-<div class="content _collapse">
-<!--{pages.metainfo-->
-<!--}pages.metainfo-->
-<!--{pages.shortdescription-->
-<!--}pages.shortdescription-->
-<!--{pages.longdescription-->
-<!--}pages.longdescription-->
-<!--{pages.embed--><!--}pages.embed-->
-<!--{pages.starpages--><!--}pages.starpages-->
-<!--{pages.layoutcontact--><!--}pages.layoutcontact-->
-<!--{pages.layoutsitemap--><!--}pages.layoutsitemap-->
-<!--{pages.layoutsearch--><!--}pages.layoutsearch-->
-</div>
-
+<?php
+include('demo.php');
+?>
 
 
 </div>
+
 </div>
   
 <script src="ui.js"></script>
